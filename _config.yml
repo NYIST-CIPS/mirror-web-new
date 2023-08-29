@@ -13,7 +13,11 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://mirror.nyist.edu.cn
+url_home: https://cips.nyist.edu.cn
+url4: https://mirror4.nyist.edu.cn
+url6: https://mirror6.nyist.edu.cn
+urlocal: https://mirrors.nyist.edu.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,3 +107,10 @@ theme: freemind.386
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+#Mirror sth
+quick_mirror:
+  - ubuntu
+  - pypi
+  - centos
+  - archlinux
